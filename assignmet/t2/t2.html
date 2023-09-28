@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Styled Paragraphs</title>
+    <style>
+        /* BEM Naming Convention */
+        .paragraph { /* Block */
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .paragraph__title { /* Element */
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .paragraph--important { /* Modifier */
+            background-color: #ffe6e6;
+            border-color: #ff6666;
+        }
+
+        .paragraph--highlight { /* Modifier */
+            background-color: #e6f7ff;
+            border-color: #66b3ff;
+        }
+
+        /* Additional styling for demonstration */
+        .paragraph p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="paragraph">
+        <h2 class="paragraph__title">Paragraph 1</h2>
+        <p>This is a regular paragraph.</p>
+    </div>
+
+    <div class="paragraph paragraph--important">
+        <h2 class="paragraph__title">Paragraph 2 (Important)</h2>
+        <p>This paragraph is marked as important.</p>
+    </div>
+
+    <div class="paragraph paragraph--highlight">
+        <h2 class="paragraph__title">Paragraph 3 (Highlighted)</h2>
+        <p>This paragraph is highlighted for special attention.</p>
+    </div>
+
+    <!-- Add more paragraphs with unique classes as needed -->
+
+</body>
+</html>
+
+

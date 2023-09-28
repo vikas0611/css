@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+
+    <!-- Internal CSS (Embedded Styles) -->
+    <style>
+        /* Internal CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style for a specific class */
+        .special-box {
+            background-color: lightcoral;
+            font-weight: bold;
+        }
+    </style>
+
+    <!-- External CSS (Linked Styles) -->
+    <link rel="stylesheet" type="text/css" href="t1.css">
+
+</head>
+<body>
+    <h1>CSS Example Page</h1>
+    
+    <!-- Inline CSS -->
+    <div style="color: rgb(255, 255, 255);">This is a div with inline CSS.</div>
+
+    <!-- Internal CSS -->
+    <div class="box">This is a div with internal CSS.</div>
+
+    <!-- Internal CSS with a specific class -->
+    <div class="box special-box">This is a div with internal CSS and a specific class.</div>
+
+    <!-- External CSS -->
+    <div class="box">This is a div with external CSS.</div>
+</body>
+</html>

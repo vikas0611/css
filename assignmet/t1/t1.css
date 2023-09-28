@@ -1,0 +1,13 @@
+/* External CSS styles (styles.css) */
+body{
+    background-image: url(https://wallpaperaccess.com/full/1631874.jpg);
+}
+
+.box {
+    border: 2px solid darkblue;
+    font-size: 18px;
+}
+
+h1 {
+    color: rgb(4, 8, 8);
+}
